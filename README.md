@@ -32,21 +32,6 @@ Tham gia server Discord để được hỗ trợ và cập nhật mới nhất:
 - ⏱️ Tùy chỉnh timeout (NoGame/WhiteScreen)
 - 🛡️ Anti-VNG popup detect
 
-## 🔒 Anti-Reverse Engineering
-
-JAR được bảo vệ bởi **8 lớp chống dịch ngược**:
-
-| Protection | Mô tả |
-|---|---|
-| String Encryption | 4 methods: XOR+B64, Hex, Reversed+XOR, CharShift |
-| Anti-Debug | Detect TracerPid, JDWP debugger, env vars |
-| Anti-Dump | Background thread scan mỗi 3-7s |
-| Anti-Frida/Xposed | Scan `/proc/self/maps` |
-| JAR Integrity | SHA-256 self-hash verification |
-| Control Flow | Dead code blocks, opaque predicates |
-| ProGuard | Aggressive optimize + shrink + rename + repackage |
-| Random Names | Tên function thay đổi mỗi lần build |
-
 ---
 
 ## Setup (chạy trong Termux)
