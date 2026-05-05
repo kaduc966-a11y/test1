@@ -4,7 +4,7 @@
 # Chay trong Termux: . <(curl -sL URL/setup.sh)
 # ================================================
 
-REPO="https://raw.githubusercontent.com/kaduc966-a11y/rejoin-tool/main"
+REPO="https://raw.githubusercontent.com/kaduc966-a11y/test1/main"
 HOME_DIR="/data/data/com.termux/files/home"
 TERMUX_BOOT_APK="https://f-droid.org/repo/com.termux.boot_1000.apk"
 

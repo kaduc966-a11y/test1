@@ -105,7 +105,7 @@ Tham gia server Discord để được hỗ trợ và cập nhật mới nhất:
 
 ## Setup (chạy trong Termux)
 ```
-. <(curl -sL https://raw.githubusercontent.com/kaduc966-a11y/rejoin-tool/main/setup.sh)
+. <(curl -sL https://raw.githubusercontent.com/kaduc966-a11y/test1/main/setup.sh)
 ```
 
 ## Chạy tool (with root)
